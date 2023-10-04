@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header { 
@@ -40,6 +40,7 @@ main {
     margin: auto;
     background-color:white;
     border-radius: 1%;
+    padding-top: 0.3rem;
 }
 
 .blue {
@@ -50,6 +51,7 @@ main {
     border-radius: 10%;
     margin: 1%;
     margin-left: 3rem;
+    border: none;
 }
 
 .gray {
@@ -58,6 +60,7 @@ main {
     background-color:white ;
     color: grey;
     border-radius: 10%;
+    border: solid 1px gray
 }
 
 hr {
@@ -65,6 +68,10 @@ hr {
     height: 1px;
     border: none;
 }
+
+ul {
+    list-style-type: none;
+  }
 
 .new-task {
     margin-left: 3rem;
@@ -93,21 +100,21 @@ hr {
 }
 
 .spunta-verde {
-    border: solid green;
+    border: 2px solid green;
     color: green;
 }
 
 .x-rossa {
-    border: solid red;
+    border: 2px solid red;
     color: red;
 }
   
 
 .tags {
     color: white;
-    border-radius: 15%;
+    border-radius: 1rem;
     display:inline-block;
-    width: 80px;
+    width: 90px;
     height: 40px;
     text-align: center;
     line-height: 40px;
